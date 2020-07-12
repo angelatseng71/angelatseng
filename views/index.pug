@@ -1,0 +1,11 @@
+extends default
+
+block header
+	div.profile
+		each link of links
+			a(href=`${link.url}`)
+				img(class='link_image' src=`/public/images/${link.img_src}`)
+block content
+	div.page
+		div.name #{title}
+	

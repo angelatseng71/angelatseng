@@ -1,0 +1,15 @@
+{
+	"links" : [
+		{
+			"website" : "LinkedIn",
+			"url" : "https://www.linkedin.com/in/angela-y-tseng",
+			"img_src" : "linkedin_logo.png"
+		},
+		
+		{
+			"website" : "Github",
+			"url" : "https://www.linkedin.com/in/angela-y-tseng",
+			"img_src" : "github_logo.png"
+		}
+	]
+}

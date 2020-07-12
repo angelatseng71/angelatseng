@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Endestry;
+  src: url("/public/fonts/Endestry.woff");
+}
+
+.page, .profile {
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+.profile {
+	top: .5vw;
+	right: .5vw;
+	height: 10%;
+	background-color: #FEEAFA;
+}
+
+.link_image {
+	max-height: 50%;
+	max-width: 50%;
+	float: right;
+}
+
+.page {
+	height: 90%;
+	bottom: 0;
+	background-color: #FEEAFA;
+}
+
+.name {
+	font-family: Endestry;
+	font-size: 5vw;
+	color: #8E9AAF;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
