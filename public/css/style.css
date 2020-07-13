@@ -2,18 +2,28 @@
   font-family: Endestry;
   src: url("/public/fonts/Endestry.woff");
 }
+@font-face {
+  font-family: IBMPlex;
+  src: url("/public/fonts/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: IBMPlex-Italic;
+  src: url("/public/fonts/IBMPlexSans-LightItalic.ttf");
+}
 
 .page, .profile {
 	position: fixed;
 	left: 0;
 	right: 0;
+	background-color: #EFD3D7;
 }
 
 .profile {
 	top: .5vw;
 	right: .5vw;
 	height: 10%;
-	background-color: #FEEAFA;
+	
 }
 
 .link_image {
@@ -25,7 +35,7 @@
 .page {
 	height: 90%;
 	bottom: 0;
-	background-color: #FEEAFA;
+	
 }
 
 .name {
@@ -37,3 +47,27 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+.subpages {
+	font-family: IBMPlex-Italic;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1.2vw;
+	color: #8E9AAF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.page_link {
+	text-decoration: none;
+	color: #8E9AAF;
+	padding-right: 50px;
+}
+
+.page_link:visited {
+	text-decoration: none;
+	color: #8E9AAF;
+}
+

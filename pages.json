@@ -1,0 +1,18 @@
+{
+	"subpages" : [
+		{
+			"name" : "about me",
+			"url" : "/aboutme"
+		},
+		
+		{
+			"name" : "projects",
+			"url" : "/projects"
+		},
+
+		{
+			"name" : "blog",
+			"url" : "/blog"
+		}
+	]
+}

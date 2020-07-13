@@ -7,5 +7,7 @@ block header
 				img(class='link_image' src=`/public/images/${link.img_src}`)
 block content
 	div.page
-		div.name #{title}
-	
+		div.name #{title} 
+		div.subpages 
+			each subpage of subpages
+				a(class='page_link' href=`${subpage.url}`) #{subpage.name} 
